@@ -30,6 +30,23 @@ app.post("/addemployee", async (req, res) => {
 });
 
 /////// 2-READ EMPLOYEES
+app.get("/employees", async (req, res) => {
+  db.collection("per")
+    .get()
+    .then((querySnapshot) => {
+      let employees = [];
+      querySnapshot.forEach((doc) => {
+        // doc.data() is never undefined for query doc snapshots
+        // console.log(doc.id, " => ", doc.data());
+        employees.push({...doc.data(), id: doc.id});
+      });
+      res.status(200).send(employees);
+    })
+    .catch((error) => {
+      console.log("Error getting documents: ", error);
+      res.status(400).send(error);
+    });
+});
 
 /////// 3-UPDATE EMPLOYEE
 
