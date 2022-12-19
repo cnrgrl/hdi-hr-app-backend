@@ -1,7 +1,6 @@
 const express = require("express");
 const app = express();
-// const port = 8383;
-const port = process.env.PORT;
+const port = 8383 || process.env.PORT;
 const {db} = require("./firebase.js");
 
 app.use(express.json());
@@ -50,7 +49,7 @@ app.get("/employees", async (req, res) => {
 });
 
 /////// 3-UPDATE EMPLOYEE
-app.post("/updateemployee/:id", async (req, res) => {
+app.patch("/updateemployee/:id", async (req, res) => {
   return db
     .collection("per")
     .doc(req.params.id)
@@ -67,7 +66,6 @@ app.post("/updateemployee/:id", async (req, res) => {
 
 /////// 4-DELETE EMPLOYEE
 app.post("/deleteemployee/:id", async (req, res) => {
-  console.error(req.params.id, "dffgdgf");
   await db
     .collection("per")
     .doc(req.params.id)
