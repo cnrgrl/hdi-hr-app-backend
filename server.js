@@ -65,5 +65,20 @@ app.post("/updateemployee/:id", async (req, res) => {
 });
 
 /////// 4-DELETE EMPLOYEE
+app.post("/deleteemployee/:id", async (req, res) => {
+  console.error(req.params.id, "dffgdgf");
+  await db
+    .collection("per")
+    .doc(req.params.id)
+    .delete()
+    .then(() => {
+      console.log("Document successfully deleted!");
+      res.status(200).send(req.body);
+    })
+    .catch((error) => {
+      console.error("Error removing document: ", error);
+      res.status(400).send(req.body);
+    });
+});
 
 app.listen(port, () => console.log(`Server has started on port: ${port}`));
