@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "hdi-hr-project",
+  "private_key_id": "bf22a130a1e28c2292e52554abad8d09d2d557ff",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDdkKLIdu+uKo4v\nPCBPnd4pBGPrlJkivX5ckjoBSdGt8OkJaElLOMhEOThJ2V2frlvgHqZ80pCnbWYV\nshCfvl+R2lsfoIYZgzulXQulzhVZfWo3WNQTPcS1L6TNYFgT+OSwD21HOpnjxtho\nrNviGZy0WAq1uknPhXJekhyKJ9OCs2FDf4l18nhn0u7pMVxucPxcE/0MnqlpVTXa\nHbtCnxZa7eDuIuRBZZvXlbBDYmQIVY2FP5QmoJnzPNT6MDgspi39o2u6DOMRTmIR\nnnTfmBklvkjX3MDib8VCMbpG50ZmIOqocaZNAD2igInpWFtCsSwJCax7GSTg/czK\n+Whb/KABAgMBAAECggEAB+Juldv8UdeBgXcjc+HbdtyJTRKtKQ99kIAYS1Ub/pNy\nSjDpXCFpqFqG68Mt8ebrrbvkKHtPxX1+9/+trW7stLfaAp6c7F8p/2D3xKSNnZvO\nbKjJvI43/UtJkztooaamRgj5K7iPTbaU8JNSLHzFLE/DwHggH0qRlCxL6AixyKwA\n2fZnOOiUgoh7FUBmWixBWqJPcMlndt3xUT1+SoPd7M5q8Bs5KZ0n3Wo5qvG8aBow\niDb14kQQVXHpKmy92VNUXWEU6PatQIAeO6ZT06x0udwZeH+QSIbThK+SRZW+aigc\nf8SlonUd9nL0bOBgMViRvdjs5FvnZwNp4+rFb7VzoQKBgQD4kcaGqOtt7SlFNz/B\nWdxA9rXKc73Sa7MG3Zt845hH7+Tm3qOM9Ef0iXACH1GFdRSRBEpsOVCXj/6FWywY\nid/CKSZkiJ1Xf0+ZX4lDPpAu2SlrPSFsEK6daXwAR4AMP1C+wJwyNPmRlGc1WFwv\nWlnpqsnLCEnQsQs8FeAvLPSO2QKBgQDkMDQm02pyJMml2JDsoYNGmG3eP0l+1ati\nSItxSO1mvYs6SokZaMeBX0xBSUBqdQnZY1t8kh5PPlDZkG1OqiDZoZRlPfVLJyYz\nuk8QJjkaUzkwvmvYiE6R6zbkltisc1Z0/Q7fme21V3O9MeRTYcDdqgIusduq4J92\nWEVd3fqxaQKBgQCno3DXin7U8Th/NMaruNXhfkGWWz6u9fGUdMqTjM873N9skMSO\noIUSt8oxtDt/nTmUn+ctW+4teXB3Mcjod7vPr370GGq9AuCFGLhzAHOvFMhpSZ4L\nyqhpAyYc7hu+psjnDPGKrs2N0B9XC9OIIBA5lfRoGJvnwi9Ig5xhVJlO6QKBgQCm\n0VKe+7n63kgIlW1FgMH+zxqq+mtZbQ1Q2aYPWHgtvu3U3H6j88S+IJQXulx8NznP\nEeLlC9FarzzeAMbYVmmTkJty9DuqCGHWOSLptHfUdfj+WIdxEh0WcfV8YYbfc6ZF\n+mZwMxDjnJ5BNwMrrfAYXNwhlOb5YiNRmjCD8e7+2QKBgHAhz6oVEW4E+ElSgapX\nWZrLJQUpayUdnkxTbiIKwrBDXagu2Of76umAMcrJeN8/9HhkmXKioUuKYrNKI63D\n3bTEndaWfuEm1CmczUsxkQfQtO8wSMEPQTXvX0KF5ygKGDcVb+jeuWyYS2Hvi7oZ\nJzKBon3fs27WnNKXBjl7i8j4\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-dnvgw@hdi-hr-project.iam.gserviceaccount.com",
+  "client_id": "112069711744669043689",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-dnvgw%40hdi-hr-project.iam.gserviceaccount.com"
+}
