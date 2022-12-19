@@ -5,6 +5,15 @@ const {db} = require("./firebase.js");
 
 app.use(express.json());
 
+app.use(function (req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header(
+    "Access-Control-Allow-Headers",
+    "Origin, X-Requested-With, Content-Type, Accept"
+  );
+  next();
+});
+
 /////// 1-CREATE EMPLOYEE
 app.post("/addemployee", async (req, res) => {
   const personsRef = db.collection("per").doc();
