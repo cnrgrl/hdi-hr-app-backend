@@ -49,6 +49,20 @@ app.get("/employees", async (req, res) => {
 });
 
 /////// 3-UPDATE EMPLOYEE
+app.post("/updateemployee/:id", async (req, res) => {
+  return db
+    .collection("per")
+    .doc(req.params.id)
+    .update(req.body)
+    .then(() => {
+      console.log("Document successfully updated!");
+      res.status(200).send(req.body);
+    })
+    .catch((error) => {
+      console.error("Error updating document: ", error);
+      res.status(400).send(error);
+    });
+});
 
 /////// 4-DELETE EMPLOYEE
 
