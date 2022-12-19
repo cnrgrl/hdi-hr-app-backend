@@ -1,0 +1,34 @@
+### GET EMPLOYEES
+GET http://localhost:8383/employees
+
+### ADD A EMPLOYEE
+POST http://localhost:8383/addemployee
+Content-Type: application/json
+
+{
+    "User_Lastname": "Ugurlu",
+    "User_Firstname": "Caner",
+    "Skill_1": "HTML",
+    "Skill_2": "CSS",
+    "Skill_3": "JAVA",
+    "Skill_4": "NODE"
+
+}
+
+### UPDATE STATUS OF A EMPLOYEE
+PATCH http://localhost:8383/updateemployee/xUYQXFo5VMYE2O3cyMy
+Content-Type: application/json
+
+{
+    "User_Firstname": "Can",
+    "User_Lastname": "Ugur"
+   
+
+}
+
+###DELETE A EMPLOYEE
+POST http://localhost:8383/deleteemployee/rfDUVIl6eNHfibNBX03s
+Content-Type: application/json
+
+
+
